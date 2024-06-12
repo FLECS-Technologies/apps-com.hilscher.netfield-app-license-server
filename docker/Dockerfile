@@ -2,7 +2,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM scratch:${VERSION}
+FROM docker.io/hilscherautomation/netfield-app-license-server:${VERSION}
 
 ARG ARCH
 ARG VERSION
