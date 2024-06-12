@@ -16,7 +16,10 @@
         "RUNTIME_TARGET=netfield"
     ],
     "volumes": [
-        "netfield-app-license-server-data:/var/lib/CodeMeter/CmAct",
-        "/var/lib/my-app:/var/lib/my-app"
-    ]
+        "netfield-app-license-server-data:/var/lib/CodeMeter/CmAct"
+    ],
+    "ports": [
+        "8033:80"
+    ],
+    "editor": ":8033"
 }
